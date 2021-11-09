@@ -26,10 +26,10 @@ namespace PhotoSharingApplication.Controllers
             else
                 photos = (from p in context.Photos
                           orderby p.CreatedDate descending
-                          select p).ToList();
+                          select p).Take(number).ToList();
 
             return PartialView("_PhotoGallery", photos);
-        }        
+        }
 
         public ActionResult Display(int id)
         {

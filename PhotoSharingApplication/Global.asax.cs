@@ -9,10 +9,10 @@ namespace PhotoSharingApplication
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-
             Database.SetInitializer<PhotoSharingContext>(new PhotoSharingInitializer());
+
+            AreaRegistration.RegisterAllAreas();
+            RouteConfig.RegisterRoutes(RouteTable.Routes);            
         }
     }
 }
