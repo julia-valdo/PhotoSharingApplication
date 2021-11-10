@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="Content\BackgroundGradient.jpg" />
     <Content Include="Content\PhotoSharingStyles.css" />
+    <Content Include="Error.html" />
     <Content Include="Global.asax" />
     <Content Include="Images\flower.JPG" />
     <Content Include="Images\fungi.JPG" />
@@ -143,6 +144,7 @@
     <Content Include="Views\Shared\_MainLayout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Photo\Delete.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
